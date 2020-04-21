@@ -9,11 +9,11 @@
     tools:context=".MainActivity">
 
    <LinearLayout
+       android:background="@drawable/bg_button_login_facebook"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content">
        <ImageView
            android:padding="15dp"
-           android:background="#f20"
            android:src="@drawable/ic_facebook"
            android:layout_width="50dp"
            android:layout_height="50dp"/>
@@ -23,6 +23,9 @@
            android:layout_height="match_parent"/>
 
        <Button
+           android:textColor="#ffff"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
            android:padding="5dp"
            android:background="@android:color/transparent"
            android:textAllCaps="false"
@@ -31,6 +34,8 @@
            android:layout_height="50dp"/>
    </LinearLayout>
     <Button
+        android:elevation="100dp"
+        android:background="@drawable/bg_button_shape"
         android:layout_marginTop="10dp"
         android:text="Shape Drawable"
         android:layout_width="wrap_content"
