@@ -8,43 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--<CheckBox-->
-<!--    android:id="@+id/CheckboxAndroid"-->
-<!--    android:text="Android"-->
-<!--    android:layout_width="wrap_content"-->
-<!--    android:layout_height="wrap_content"/>-->
-<!--    <CheckBox-->
-<!--        android:layout_marginRight="15dp"-->
-<!--        android:text="ios"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
-<!--    <CheckBox-->
-<!--        android:layout_marginRight="12dp"-->
-<!--        android:text="php"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
-    <RadioGroup
-        android:id="@+id/RadioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <RadioButton
-        android:id="@+id/RadioAndroid"
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/bg_checkbox"
         android:text="Android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <RadioButton
-        android:id="@+id/Radioios"
-        android:layout_marginRight="15dp"
-        android:text="ios"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <RadioButton
-        android:id="@+id/Radiophp"
-        android:layout_marginRight="12dp"
-        android:text="php"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    </RadioGroup>
 
 
 
